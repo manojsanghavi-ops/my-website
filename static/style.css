@@ -1,0 +1,27 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    max-width: 900x;
+    margin: 60px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+nav a {
+    display: inline-block;
+    padding: 10px 15px;
+    margin-right:10px;
+    color: while;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
