@@ -7,6 +7,9 @@ def home():
 @app.route("/about")
 def about():
     return render_template("about.html")
+@app.route("/cybersecurity")
+def cybersecurity():
+    return render_template("cybersecurity.html")
 
 @app.route("/login", methods=["GET", "POST"])
 def login():
