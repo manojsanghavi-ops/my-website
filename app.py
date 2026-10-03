@@ -11,6 +11,10 @@ def about():
 def cybersecurity():
     return render_template("cybersecurity.html")
 
+@app.route("/cybersecurity")
+def cybersecurity():
+    return render_template("cybersecurity.html")
+
 @app.route("/login", methods=["GET", "POST"])
 def login():
     if request.method == "POST":
